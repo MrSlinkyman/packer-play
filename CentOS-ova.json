@@ -1,0 +1,13 @@
+{
+  "variables": {
+  },
+  "builders": [{
+	"type": "virtualbox-ovf",
+	"source_path": "CentOS vbox 4.2.12-93733.ova",
+	"ssh_username": "packer",
+	"ssh_password": "packer",
+	"format": "ova",
+	"ssh_wait_timeout": "30s",
+	"shutdown_command": "echo 'packer' | sudo -S shutdown -P now"
+  }]
+}
