@@ -25,3 +25,7 @@ Process
 - VirtualBox version 4.3.12-93733
 - CentOS 6.5 64bit LiveDVD
 - Vagrant 1.4.3
+
+## Other Research
+
+- [Testing the configuration](http://www.morethanseven.net/2014/01/01/testing-packer-created-images-with-serverspec/)
